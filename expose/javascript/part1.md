@@ -1,4 +1,4 @@
-# Expose Part1
+# Expose Part 1
 
 1. What is printed by line 9? If the code returns an error, explain why.
 
