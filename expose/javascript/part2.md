@@ -119,16 +119,27 @@
 
 16. Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.  (This should be in a JS file part2-question16.js)
     
-    ```js
-    for (const item in statistics) {
-        if(item[0] == 'r' || (statistics[item] mod 2 == 0)) {
-            console.log(statistics[item])
-        }
-    }
-    ```
+    Answer code given in ```part2-question16.js```
+    
 ## Functions
 
 17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. 
+    
+    ```[2, 4, 6]``` will be the result. The function ```modifyArray()``` iterates through the input array and modifies each value using the ```callback()``` function. In this case, ```callback()``` doubles the value of each array element. Inputing ```[1, 2, 3]``` gives ```[2, 4, 6]```
+
+## setInterval(), setTimeout(), clearTimeout()
+
+18. The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.  (This should be a JS file - part2-question18.js)
+    
+    Anser code in ```part2-question18.js```
+
+19. What is the output of the above code? (This should be in your part2.md)
+
+    Output:   
+    1  
+    4  
+    3  
+    2  
 
 
 
