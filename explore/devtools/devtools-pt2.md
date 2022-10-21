@@ -6,3 +6,7 @@
 
 2.  How would you fix it? Include a screenshot of your fix. Name it fix.png (or whatever image extension you would like to use)
 
+    I add the function ```Number()``` to ```num1``` and ```num2``` to force the conversion from string to numbers.
+
+    ![image](fix.png)
+
